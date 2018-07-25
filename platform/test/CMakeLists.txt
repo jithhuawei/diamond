@@ -5,7 +5,7 @@ set(SRC_DIAMOND_GTEST
 add_executable(diamondtest
     ${SRC_DIAMOND_GTEST})
     
-target_link_libraries(diamondtest diamond ${DIAMOND_LIB_DEPS} ${GTEST_BOTH_LIBRARIES})
+target_link_libraries(diamondtest diamond ${DIAMOND_LIB_DEPS} ${GTEST_BOTH_LIBRARIES} gtest gtest_main)
 add_test(DiamondPlatformTests diamondtest)
 
 

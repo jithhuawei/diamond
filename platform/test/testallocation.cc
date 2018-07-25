@@ -4,7 +4,7 @@
 using namespace diamond;
 
 int main(){
-   DiamondInit()
+   DiamondInit();
 
    DLong long1;
    DString str1;
